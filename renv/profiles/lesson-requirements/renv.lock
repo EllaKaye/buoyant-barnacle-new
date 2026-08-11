@@ -7,10 +7,6 @@
         "URL": "https://carpentries.r-universe.dev"
       },
       {
-        "Name": "carpentries_archive",
-        "URL": "https://carpentries.github.io/drat"
-      },
-      {
         "Name": "CRAN",
         "URL": "https://cran.rstudio.com"
       }
@@ -45,7 +41,7 @@
     },
     "bslib": {
       "Package": "bslib",
-      "Version": "0.11.0",
+      "Version": "0.12.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Requirements": [
@@ -63,7 +59,7 @@
         "rlang",
         "sass"
       ],
-      "Hash": "82c0dcea3e967cfeaa263e920798a77e"
+      "Hash": "b2d0b0a17142ed4858f252d88eb56223"
     },
     "cachem": {
       "Package": "cachem",
@@ -288,16 +284,13 @@
     },
     "renv": {
       "Package": "renv",
-      "Version": "0.17.0-38",
+      "Version": "1.2.4",
       "Source": "Repository",
-      "Repository": "https://carpentries.r-universe.dev",
-      "RemoteUrl": "https://github.com/rstudio/renv",
-      "RemoteRef": "0.17.0-38",
-      "RemoteSha": "fd9181395e13652d2b3dc942ac1bf807e9564c25",
+      "Repository": "CRAN",
       "Requirements": [
         "utils"
       ],
-      "Hash": "4a11fe072b17cd901835053b25821a7f"
+      "Hash": "d5a3bd382107712f897630627794f81a"
     },
     "rlang": {
       "Package": "rlang",
@@ -365,22 +358,16 @@
     },
     "xfun": {
       "Package": "xfun",
-      "Version": "0.59",
+      "Version": "0.60",
       "Source": "Repository",
       "Repository": "CRAN",
-      "RemoteType": "standard",
-      "RemotePkgRef": "xfun",
-      "RemoteRef": "xfun",
-      "RemoteRepos": "https://cran.rstudio.com/",
-      "RemotePkgPlatform": "aarch64-apple-darwin23",
-      "RemoteSha": "0.59",
       "Requirements": [
         "R",
         "grDevices",
         "stats",
         "tools"
       ],
-      "Hash": "d1d49bb7455ec484ba5b17369ee06544"
+      "Hash": "8304c2894061f6ae062996f09dd1528e"
     },
     "yaml": {
       "Package": "yaml",
